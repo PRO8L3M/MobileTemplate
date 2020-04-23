@@ -27,6 +27,8 @@ object Versions {
     val archComponentsKtx = "2.3.0-alpha01"
 
     val navigation = "2.3.0-alpha01"
+
+    val gradleVersionsPlugin = "0.28.0"
 }
 
 object Libraries {
@@ -65,4 +67,6 @@ object Libraries {
     val leakCanary = "com.squareup.leakcanary:leakcanary-android:${Versions.leakCanary}"
 
     val timber = "com.jakewharton.timber:timber:${Versions.timber}"
+
+    val gradleVersionPlugin = "com.github.ben-manes:gradle-versions-plugin:${Versions.gradleVersionsPlugin}"
 }
