@@ -2,7 +2,6 @@ package com.my.template.di
 
 import com.my.template.data.repository.Repository
 import com.my.template.ui.start.StartViewModel
-import org.koin.androidx.experimental.dsl.viewModel
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.core.module.Module
 import org.koin.dsl.module

@@ -4,13 +4,13 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: "com.github.ben-manes.versions"
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 30
     buildToolsVersion "29.0.2"
 
     defaultConfig {
         applicationId "com.my.template"
         minSdkVersion 23
-        targetSdkVersion 29
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
 
@@ -44,16 +44,12 @@ dependencies {
     implementation Libraries.androidxCoreKtx
     implementation Libraries.androidxConstraintLayout
 
-    implementation Libraries.koin
     implementation Libraries.koinAndroid
-    implementation Libraries.koinAndroidxExt
+    implementation Libraries.koinAndroidxFragment
     implementation Libraries.koinAndroidxScope
     implementation Libraries.koinAndroidxViewModel
-    implementation Libraries.koinExt
 
     implementation Libraries.material
-
-    implementation Libraries.coroutines
 
     implementation Libraries.leakCanary
 

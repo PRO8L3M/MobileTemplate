@@ -2,7 +2,7 @@
 
 object Versions {
     val kotlin = "1.3.72"
-    val buildGradle = "3.6.3"
+    val buildGradle = "4.0.1"
 
     val appCompat = "1.1.0"
     val coreKtx = "1.2.0"
@@ -12,7 +12,7 @@ object Versions {
     val androidxJunit = "1.1.1"
     val androidxEspresso = "3.2.0"
 
-    val koin = "2.1.0-beta-1"
+    val koin = "2.1.5"
 
     val coroutines = "1.3.5"
 
@@ -34,8 +34,6 @@ object Versions {
 object Libraries {
     val kotlin = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${Versions.kotlin}"
 
-    val coroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutines}"
-
     val kotlinGradlePlugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.kotlin}"
     val buildGradle = "com.android.tools.build:gradle:${Versions.buildGradle}"
     val androidxLegacy = "androidx.legacy:legacy-support-v4:${Versions.legacy}"
@@ -48,12 +46,10 @@ object Libraries {
     val androidxJunit = "androidx.test.ext:junit:${Versions.androidxJunit}"
     val androidxEspresso = "androidx.test.espresso:espresso-core:${Versions.androidxEspresso}"
 
-    val koin = "org.koin:koin-core:${Versions.koin}"
-    val koinExt = "org.koin:koin-core-ext:${Versions.koin}"
-    val koinAndroidxExt= "org.koin:koin-androidx-ext:${Versions.koin}"
     val koinAndroid = "org.koin:koin-android:${Versions.koin}"
     val koinAndroidxScope = "org.koin:koin-androidx-scope:${Versions.koin}"
     val koinAndroidxViewModel = "org.koin:koin-androidx-viewmodel:${Versions.koin}"
+    val koinAndroidxFragment = "org.koin:koin-androidx-fragment:${Versions.koin}"
 
     val viewModelScopeKtx = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.archComponentsKtx}"
     val lifecycleScopeKtx = "androidx.lifecycle:lifecycle-runtime-ktx:${Versions.archComponentsKtx}"
